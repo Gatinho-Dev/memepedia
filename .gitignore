@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+/next-env.d.ts
+
+# Runtime data — SQLite database, WAL/SHM files (seeded automatically on first run)
+/data
+
+# User-uploaded media
+/public/uploads
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editors & OS
+.DS_Store
+.idea
+.vscode
+
+# Local tooling state
+/.freebuff

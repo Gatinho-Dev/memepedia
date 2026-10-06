@@ -1,0 +1,28 @@
+{
+  "name": "memepedia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Memepedia - a enciclopedia livre dos memes da internet.",
+  "scripts": {
+    "dev": "next dev -p 4310",
+    "build": "next build",
+    "start": "next start -p 4310",
+    "typecheck": "tsc --noEmit",
+    "db:reset": "node --experimental-strip-types scripts/reset-db.ts"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
+  }
+}
