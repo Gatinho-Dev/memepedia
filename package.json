@@ -2,6 +2,7 @@
   "name": "memepedia",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Memepedia - a enciclopedia livre dos memes da internet.",
   "scripts": {
     "dev": "next dev -p 4310",
